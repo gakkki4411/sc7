@@ -1,0 +1,36 @@
+#display{
+    margin: 10%;
+}
+
+#holes{
+    position: relative;
+    left: 5%;
+    width: 90%;
+
+    background-color: green;
+
+    border: solid 10px burlywood;
+}
+
+.hole-column{
+    height: 40%;
+}
+
+.hole{
+    position: relative;
+    left: 3.33%;
+    display: inline-block;
+    width: 30%;
+    height: 80%;
+}
+
+.hole img{
+    width: 100%;
+    height: 100%;
+}
+
+.mole{
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
